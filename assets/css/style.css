@@ -4,7 +4,7 @@ body {
 
 .text {
     color: #fff;
-    font-size: 12px;
+    font-size: 22px;
     font-family: monospace;
     text-align: center;
 }
@@ -27,7 +27,7 @@ a {
     color: #fff;
     text-decoration: none;
     font-family: monospace;
-    font-size: 13px;
+    font-size: 18px;
     padding: 5px;
 }
 
