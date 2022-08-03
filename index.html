@@ -1,23 +1,46 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>BinaryDex</title>
-        <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png"/>
-        <link rel="stylesheet" href="assets/css/style.css"/>
-        <meta content="BinaryDex" property="og:title"/>
-        <meta content="#FF87FF" data-react-helmet="true" name="theme-color"/>
-    </head>
-    <body>
-         <div class="title">Welcome!</div>
-         <span>
-             <ul>
-                 [
-                 <a href="https://discord.io/dexhub" target="_blank">discord</a>
-                 |
-                 <a href="/bio">bio</a>
-                 |
-                 <a href="/scripts">scripts</a>
-                 ]
-             </ul>
-         </span>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BinaryDex</title>
+    
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+    
+        .name{
+            color: Fuchsia;
+            font-family: 'Courier New', Courier, monospace;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            text-shadow: 1px 1px 10px aquamarine,
+                0 0 30px Fuchsia,
+                0 0 80px Fuchsia;
+            transition: 0.5s;
+            text-decoration: none;
+        }
+    
+        .name:hover {
+            letter-spacing: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <a class='name' href="#">BinaryDex</a>
+</body>
+
 </html>
