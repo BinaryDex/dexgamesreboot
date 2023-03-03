@@ -4,7 +4,7 @@ function searchGame() {
   const gameContainer = document.getElementById('product__container grid');
   console.log(gameContainer);
   
-  const games = gameContainer.getElementByClassName('product__card');
+  const games = gameContainer.getElementsByClassName('product__card');
   console.log(games);
   
   
