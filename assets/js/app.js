@@ -6,6 +6,11 @@ function searchGame() {
   console.log(gameContainer);
   
   const games = gameContainer.getElementsByClassName('game');
+  if (games !== null) {
+    var list = games.getElementsByClassName("content")[0];
+    list.getElementsByTagName("li")[0].style.display = "none";
+    list.getElementsByTagName("li")[1].style.display = "none";
+  }
   console.log(games);
   
   
