@@ -1,6 +1,6 @@
 function searchGame() {
   // DOM
-  const input == document.getElementById('filter').value.toUpperCase()
+  const input = document.getElementById('filter').value.toUpperCase()
   ;
   const gameContainer = document.getElementById('product__container grid');
   console.log(gameContainer);
