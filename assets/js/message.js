@@ -1,7 +1,9 @@
 function sendMessage() {
   console.log("attempting to send discord message")
+  const response = await fetch('./assets/webhook.txt');
+  const dontstealthishook = await response.text();
   var request = new XMLHttpRequest();
-  request.open("POST", "https://discord.com/api/webhooks/1081391354208342108/7OHLxMxoXX-bgW4uA75o5KHzeQ-XerL5J0s82lX3cZ4-oa1-Ar8c5H3dnelWNOcU1kqs");
+  request.open("POST", dontstealthishook);
   // again, replace the url in the open method with yours
   request.setRequestHeader('Content-type', 'application/json');
 
