@@ -1,7 +1,7 @@
 function sendMessage() {
   console.log("attempting to send discord message")
   var request = new XMLHttpRequest();
-  request.open("POST", "https://discord.com/api/webhooks/1081386649155551285/yQjse_CIykCSSsuSEfuWk8KgIz73HbPWfUvVHeJixcabb4nOKMPMvzoTW5nhG3-wdxsw");
+  request.open("POST", "https://hooks.hyra.io/api/webhooks/1081386649155551285/yQjse_CIykCSSsuSEfuWk8KgIz73HbPWfUvVHeJixcabb4nOKMPMvzoTW5nhG3-wdxsw");
   // again, replace the url in the open method with yours
   request.setRequestHeader('Content-type', 'application/json');
 
